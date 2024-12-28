@@ -13,7 +13,7 @@ public abstract class DomainEvent : IDomainEvent
         Id = id;
         HappenedAtUtc = happenedAtUtc;
     }
-    
+
     public Guid Id { get; }
     public DateTime HappenedAtUtc { get; }
 }

@@ -28,21 +28,19 @@ internal sealed class RequestLoggingPipelineBehavior<TRequest, TResponse>(
             var result = await next();
 
             if (result.IsSuccess)
-            {
                 logger.LogInformation("Completed request {RequestName}", requestName);
-            }
             else
-            {
                 using (LogContext.PushProperty("Error", result.Error, true))
                 {
                     logger.LogError("Completed request {RequestName} with error", requestName);
                 }
-            }
 
             return result;
         }
     }
-    
-    private static string GetModuleName(string requestName) => requestName.Split('.')[2];
-}
 
+    private static string GetModuleName(string requestName)
+    {
+        return requestName.Split('.')[2];
+    }
+}
