@@ -1,8 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CC9B7159-A07F-450D-AA7F-A05C9CDAA18D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{4496EEDC-5318-4B61-B3DF-2C4CA1F7B61C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LodgiQ.Framework.Domain", "src\Framework\LodgiQ.Framework.Domain\LodgiQ.Framework.Domain.csproj", "{4B238287-4CF0-4FC5-A9B6-C216AD9A4C17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{67540572-0D32-444E-B786-51C1F3BFDEBB}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		Lodgiq.sln.DotSettings = Lodgiq.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4496EEDC-5318-4B61-B3DF-2C4CA1F7B61C} = {CC9B7159-A07F-450D-AA7F-A05C9CDAA18D}
+		{4B238287-4CF0-4FC5-A9B6-C216AD9A4C17} = {4496EEDC-5318-4B61-B3DF-2C4CA1F7B61C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B238287-4CF0-4FC5-A9B6-C216AD9A4C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B238287-4CF0-4FC5-A9B6-C216AD9A4C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B238287-4CF0-4FC5-A9B6-C216AD9A4C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B238287-4CF0-4FC5-A9B6-C216AD9A4C17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
