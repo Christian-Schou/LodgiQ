@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LodgiQ.Framework.Application", "src\Framework\LodgiQ.Framework.Application\LodgiQ.Framework.Application.csproj", "{6700E11F-1661-4ABE-9013-4E02B3EACE0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LodgiQ.Framework.Infrastructure", "src\Framework\LodgiQ.Framework.Infrastructure\LodgiQ.Framework.Infrastructure.csproj", "{3BF6D9FC-4CD2-4264-8D80-0846D2B153E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,7 @@ Global
 		{4496EEDC-5318-4B61-B3DF-2C4CA1F7B61C} = {CC9B7159-A07F-450D-AA7F-A05C9CDAA18D}
 		{4B238287-4CF0-4FC5-A9B6-C216AD9A4C17} = {4496EEDC-5318-4B61-B3DF-2C4CA1F7B61C}
 		{6700E11F-1661-4ABE-9013-4E02B3EACE0E} = {4496EEDC-5318-4B61-B3DF-2C4CA1F7B61C}
+		{3BF6D9FC-4CD2-4264-8D80-0846D2B153E5} = {4496EEDC-5318-4B61-B3DF-2C4CA1F7B61C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4B238287-4CF0-4FC5-A9B6-C216AD9A4C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -34,5 +37,9 @@ Global
 		{6700E11F-1661-4ABE-9013-4E02B3EACE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6700E11F-1661-4ABE-9013-4E02B3EACE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6700E11F-1661-4ABE-9013-4E02B3EACE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF6D9FC-4CD2-4264-8D80-0846D2B153E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF6D9FC-4CD2-4264-8D80-0846D2B153E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF6D9FC-4CD2-4264-8D80-0846D2B153E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF6D9FC-4CD2-4264-8D80-0846D2B153E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
