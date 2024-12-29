@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lodgingly.Module.Users.Doma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lodgingly.Module.Users.IntegrationEvents", "src\modules\users\Lodgingly.Module.Users.IntegrationEvents\Lodgingly.Module.Users.IntegrationEvents.csproj", "{C30790E5-F91A-4567-8B2F-2367D2CF39EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lodgingly.Module.Users.Application", "src\modules\users\Lodgingly.Module.Users.Application\Lodgingly.Module.Users.Application.csproj", "{3335F328-56D2-473D-8E24-FDC0C0728ED3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,7 @@ Global
 		{5F99FF9F-5484-4325-B49C-D477EF539A0F} = {EE51B9EF-CC6A-4643-88D3-D1E1B0BC589C}
 		{262DABCB-2A2E-4B25-B6F6-6D8B9E736A82} = {5F99FF9F-5484-4325-B49C-D477EF539A0F}
 		{C30790E5-F91A-4567-8B2F-2367D2CF39EE} = {5F99FF9F-5484-4325-B49C-D477EF539A0F}
+		{3335F328-56D2-473D-8E24-FDC0C0728ED3} = {5F99FF9F-5484-4325-B49C-D477EF539A0F}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4B238287-4CF0-4FC5-A9B6-C216AD9A4C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -78,5 +81,9 @@ Global
 		{C30790E5-F91A-4567-8B2F-2367D2CF39EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C30790E5-F91A-4567-8B2F-2367D2CF39EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C30790E5-F91A-4567-8B2F-2367D2CF39EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3335F328-56D2-473D-8E24-FDC0C0728ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3335F328-56D2-473D-8E24-FDC0C0728ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3335F328-56D2-473D-8E24-FDC0C0728ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3335F328-56D2-473D-8E24-FDC0C0728ED3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
