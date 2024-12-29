@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lodgingly.Framework.Applica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lodgingly.Framework.Infrastructure", "src\Framework\Lodgingly.Framework.Infrastructure\Lodgingly.Framework.Infrastructure.csproj", "{3BF6D9FC-4CD2-4264-8D80-0846D2B153E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lodgingly.Framework.Presentation", "src\Framework\Lodgingly.Framework.Presentation\Lodgingly.Framework.Presentation.csproj", "{761108E7-0B7C-4BB1-B1EF-4F4D8B9EA75A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,7 @@ Global
 		{4B238287-4CF0-4FC5-A9B6-C216AD9A4C17} = {4496EEDC-5318-4B61-B3DF-2C4CA1F7B61C}
 		{6700E11F-1661-4ABE-9013-4E02B3EACE0E} = {4496EEDC-5318-4B61-B3DF-2C4CA1F7B61C}
 		{3BF6D9FC-4CD2-4264-8D80-0846D2B153E5} = {4496EEDC-5318-4B61-B3DF-2C4CA1F7B61C}
+		{761108E7-0B7C-4BB1-B1EF-4F4D8B9EA75A} = {4496EEDC-5318-4B61-B3DF-2C4CA1F7B61C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4B238287-4CF0-4FC5-A9B6-C216AD9A4C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -41,5 +44,9 @@ Global
 		{3BF6D9FC-4CD2-4264-8D80-0846D2B153E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BF6D9FC-4CD2-4264-8D80-0846D2B153E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BF6D9FC-4CD2-4264-8D80-0846D2B153E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761108E7-0B7C-4BB1-B1EF-4F4D8B9EA75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761108E7-0B7C-4BB1-B1EF-4F4D8B9EA75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761108E7-0B7C-4BB1-B1EF-4F4D8B9EA75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761108E7-0B7C-4BB1-B1EF-4F4D8B9EA75A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
