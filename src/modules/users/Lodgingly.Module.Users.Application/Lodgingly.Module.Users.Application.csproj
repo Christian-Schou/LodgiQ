@@ -6,4 +6,10 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Framework\Lodgingly.Framework.Application\Lodgingly.Framework.Application.csproj" />
+      <ProjectReference Include="..\..\..\Framework\Lodgingly.Framework.Domain\Lodgingly.Framework.Domain.csproj" />
+      <ProjectReference Include="..\Lodgingly.Module.Users.Domain\Lodgingly.Module.Users.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
