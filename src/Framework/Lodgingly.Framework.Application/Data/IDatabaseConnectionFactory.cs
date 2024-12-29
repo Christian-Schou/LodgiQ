@@ -2,7 +2,7 @@ using System.Data.Common;
 
 namespace Lodgingly.Framework.Application.Data;
 
-public interface IDbConnectionFactory
+public interface IDatabaseConnectionFactory
 {
     ValueTask<DbConnection> OpenConnectionAsync();
 }

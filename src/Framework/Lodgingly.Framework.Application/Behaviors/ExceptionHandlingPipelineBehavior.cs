@@ -17,7 +17,7 @@ internal sealed class ExceptionHandlingPipelineBehavior<TRequest, TResponse>(
         catch (Exception exception)
         {
             logger.LogError(exception, "Unhandled exception for {RequestName}", typeof(TRequest).Name);
-            throw new LodgiQException(typeof(TRequest).Name, innerException: exception);
+            throw new LodginglyException(typeof(TRequest).Name, innerException: exception);
         }
     }
 }
