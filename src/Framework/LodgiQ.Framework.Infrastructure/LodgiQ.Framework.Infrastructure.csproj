@@ -8,6 +8,12 @@
 
     <ItemGroup>
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="MassTransit" Version="8.2.1" />
+      <PackageReference Include="MassTransit.Redis" Version="8.2.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LodgiQ.Framework.Application\LodgiQ.Framework.Application.csproj" />
     </ItemGroup>
 
 </Project>
