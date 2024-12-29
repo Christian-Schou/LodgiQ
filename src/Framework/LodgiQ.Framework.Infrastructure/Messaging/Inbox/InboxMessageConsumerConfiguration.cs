@@ -7,7 +7,7 @@ public class InboxMessageConsumerConfiguration : IEntityTypeConfiguration<InboxM
 {
     public void Configure(EntityTypeBuilder<InboxMessageConsumer> builder)
     {
-        builder.ToTable("inbox_messages_consumers");
+        builder.ToTable("inbox_message_consumers");
         builder.HasKey(consumer => new { consumer.InboxMessageId, consumer.Name });
         builder.Property(consumer => consumer.Name).HasMaxLength(500);
     }
