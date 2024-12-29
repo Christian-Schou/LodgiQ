@@ -5,7 +5,7 @@ namespace Lodgingly.Framework.Infrastructure.Authentication.Extensions;
 
 internal static class AuthenticationExtensions
 {
-    internal static IServiceCollection AddAuthenticationInternal(this IServiceCollection services)
+    internal static IServiceCollection AddCustomAuthentication(this IServiceCollection services)
     {
         services.AddAuthorization();
 

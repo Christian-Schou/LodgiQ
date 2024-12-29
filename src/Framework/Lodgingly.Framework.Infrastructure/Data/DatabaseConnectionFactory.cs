@@ -4,7 +4,7 @@ using Npgsql;
 
 namespace Lodgingly.Framework.Infrastructure.Data;
 
-internal sealed class DatabaseConnectionFactory(NpgsqlDataSource dataSource) : IDbConnectionFactory
+internal sealed class DatabaseConnectionFactory(NpgsqlDataSource dataSource) : IDatabaseConnectionFactory
 {
     public async ValueTask<DbConnection> OpenConnectionAsync()
     {
